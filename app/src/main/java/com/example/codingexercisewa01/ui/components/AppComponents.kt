@@ -95,7 +95,6 @@ fun CountryCard(country: Country) {
 // handle Error screen
 @Composable
 fun GenericError(errorMsg: String) { // can pass either message, object or basic string
-    Text(text = "Name: ${errorMsg}")
     Column (modifier =
         Modifier.padding(25.dp)
             .fillMaxWidth(),
